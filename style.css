@@ -4,7 +4,6 @@ body {
     font-family: monospace;
     margin: 0;
     background: #333333;
-
 }
 
 .header {
@@ -17,8 +16,6 @@ body {
     background: #2C8E99;
     text-transform: uppercase;
     max-height: 300px;
-
-
 }
 
 .header > * {
@@ -41,7 +38,6 @@ body {
     justify-content: center;
     gap:50px;
     text-transform: uppercase;
-
 }
 
 
@@ -50,8 +46,6 @@ body {
     display: inherit;
     height: 100%;
     gap:2px;
-
-
 }
 
 button {
@@ -79,8 +73,8 @@ button:hover:not(#result) {
 
 .container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px,200px));
-grid-gap:20px;
+    grid-template-columns: repeat(3,200px);
+    grid-gap:20px;
     padding: 40px 0px;
     justify-content: center;
 }
@@ -89,7 +83,6 @@ grid-gap:20px;
     background: aliceblue;
     border: 1px solid red;
     border-radius: 8px;
-
     height: 200px;
 }
 
